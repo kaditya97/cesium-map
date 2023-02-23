@@ -1,10 +1,15 @@
-import React from 'react';
+import { useEffect } from 'react';
+import Viewer from './Viewer';
+
 
 function App() {
+  useEffect(() => {
+    document.title = "Cesium Map";
+  })
 
   return (
-    <div className="ak-flex ak-m-10 ak-justify-center dark:ak-bg-black dark:ak-text-white">
-      Aditya is making these all changes
+    <div>
+      <Viewer />
     </div>
   )
 }

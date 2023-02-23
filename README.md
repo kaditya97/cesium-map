@@ -13,3 +13,5 @@ npx tailwindcss init -p
 ```sh
 yarn run dev
 ```
+
+https://dev.to/shashannkbawa/deploying-vite-app-to-github-pages-3ane
