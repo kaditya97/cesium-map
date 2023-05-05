@@ -4,6 +4,6 @@ import cesium from 'vite-plugin-cesium';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/vite-react/',
+  base: '/',
   plugins: [react(), cesium()],
 })
