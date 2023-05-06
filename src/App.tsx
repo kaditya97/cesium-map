@@ -1,15 +1,13 @@
 import { useEffect } from 'react';
-import Viewer from './Viewer';
+import MapViewer from './CesiumViewer';
+
 
 
 function App() {
-  useEffect(() => {
-    document.title = "Cesium Map";
-  })
 
   return (
     <div>
-      <Viewer />
+      <MapViewer />
     </div>
   )
 }
